@@ -36,44 +36,26 @@ Users would download that software and manually install it on their computers.
 People that wrote the software were generally separated from the people that maintained the servers for running the software on.
 Bringing software to market was a long, arduous task filled with complicated and error prone steps, resulting in a long development life-cycle
 
-What is DevOps
-
-
-What is DevOps
-Software delivery in the 1990s:
-What is DevOps:
-
 From Wikipedia:
-DevOps is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide to shorten the systems development cycle and provide continuous delivery with high software quality.
+
+> DevOps is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide to shorten the systems development cycle and provide continuous delivery with high software quality.
 
 The introduction of the DevOps practice brought about a merging of the Development Team and the Operations Team into a "hybrid" called "DevOps".
 
-Working together, these teams create a synergy that makes working in a software company a pleasure rather than a stressful ordeal.
+# 1 + 1 = 3
 
-What is DevOps
+Working together, these teams create a **synergy** that makes working in a software company a pleasure rather than a stressful ordeal.
 
-
-What is DevOps
-New process 
+### New process 
 model:
 
 
 Resources:
 
-Intro to DevOps: 
-https://www.youtube.com/watch?v=_Gpe1Zn-1fE
+[Intro to DevOps](https://www.youtube.com/watch?v=_Gpe1Zn-1fE)
 
+[What does a DevOps engineer do?](https://www.youtube.com/watch?v=o_sUNqZtfVQ)
 
-What does a DevOps engineer do?
-
-https://www.youtube.com/watch?v=o_sUNqZtfVQ
-
-
-
-
-
-
-What is DevOps
 
 
 Negative points from this process:
@@ -95,7 +77,7 @@ The tools we will be using in this course:
 
 We will be installing:
 1) Virtual Box
-2) Ubuntu Linux 19.04
+2) Ubuntu Linux
 3) Python
 4) Docker
 5) Jenkins 
