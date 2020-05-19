@@ -1,7 +1,8 @@
 # DevOps Course - ComIT
 
 ## Resources
-* Slack
+* [Slack](https://devopsbcmay20.slack.com/)
+* [CodeCast](https://www.codecast.io/)
 
 ## Crawl
 ### Week 1
