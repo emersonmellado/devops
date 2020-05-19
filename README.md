@@ -8,21 +8,40 @@
 - Introduction
 - Crawl, Walk and Run goals stablished
 - [What is DevOps](what_is_devops.md)
-- [Setup](setup.md)
+- [Git & github](git.md)
 
 ### Week 2
-### Week 3
-### Week 4
+- [OS - Operating systems](os.md)
+- [Setup](setup.md)
 
-## Walk
+### Week 3
+- Logic
+- Python
+
+### Week 4
+- Algorithms
+- OOP
 
 ### Week 5
+- Networking
+
 ### Week 6
+- Virtualization
+- CI/CD
 ### Week 7
+- Jenkins
+- Ansible
 ### Week 8
+- Docker
 
 ## Run
+
 ### Week 9
+- Cloud computing
 ### Week 10
+- Load balancing
+- DNS
+- SSL Certificates
 ### Week 11
-### Week 12
+- Security
+- Monitoring
