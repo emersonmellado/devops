@@ -255,3 +255,14 @@ Exception Handling
 Loops
 Conditionals
 
+
+**Resources**
+
+Playbooks:
+- [Intro from ansible](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html)
+
+- [Nginx with php](https://www.devopsroles.com/ansible-playbook-nginx-php/)
+
+- [Apache](https://github.com/ansible/ansible-examples/blob/master/lamp_simple/roles/web/tasks/install_httpd.yml)
+
+- [LEMP](https://github.com/do-community/ansible-playbooks/blob/master/lemp_ubuntu1804/playbook.yml)
