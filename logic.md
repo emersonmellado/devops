@@ -4,7 +4,7 @@
 
 Computers are ~~dumb~~ machines, they are basically thousands of light switches turning itself on or off according to whatever we tell them to do. They are binary, boolean, meaning they only understand 1 and 0, True or False, On and Off from a light switch brain.
 
-Because of that Logic is such an **important concept** to be able to understand and manpulate computers properly.
+Because of that Logic is such an **important concept** to be able to understand and manipulate computers properly.
 
 For the logic studies we will keep to the basics, Propositional Logic.
 
