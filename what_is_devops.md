@@ -3,8 +3,8 @@
 ![DevOps](/images/whatisdevops/devops-logo.png)
 
 * Why We need DevOps and What is DevOps
-* Setting up our Tool Set
 * Source Code Management (git & GitHub)
+* Setting up our Tool Set
 * Python (and why we're learning it in a DevOps course)
 * Continuous Integration (jenkins)
 * Continuous Delivery (jenkins)
@@ -88,6 +88,8 @@ No assumptions, we will start from scratch. Meaning we will all learn how to to 
 We wll also cover Algorithms, Logic and Python.
 
 *I think we are a bit biased from a dev perspective, probably because this is my main experience.*
+
+You will have to lose the fear of the command line, it is not that scary :D
 
 ### Tools we will use in this course:
 
