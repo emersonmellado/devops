@@ -4,7 +4,7 @@ Make sure you read through and install all the software on the list.
 
 What we will install:
 1) [Virtual Box](#install-virtual-box) or [HyperV](#with-hyper-v) or Parallels (Any virtualization software)
-2) [Ubuntu Linux 19.04](#installing-ubuntu-linux)
+2) [Ubuntu Linux](#installing-ubuntu-linux)
 3) [Python 3](#python)
 4) [Docker](#docker)
 5) Jenkins
@@ -20,14 +20,12 @@ What we will install:
 
 ### Install Virtual box:
 
-1) Navigate [here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0)
-2) Select VirtualBox bulid 6.0.4
+1) Navigate [here](https://www.virtualbox.org/wiki/Downloads)
+2) Click "Download VirtualBox 6.1"
 
 #### On Windows:
 3) Click on Windows hosts
-4) Open your Downloads directory
-5) Double Click VirtualBox-6.0.4-128413-Win.exe
-6) Follow the directions on this [video](https://www.youtube.com/watch?v=MTEefDP2Ofo&vl=en)
+4) [Installation video from community](https://www.youtube.com/watch?v=MTEefDP2Ofo&vl=en)
 
 > (ignore the section on downloading the virtual box binary, as its a little different than using the current version of virtualbox)
 
@@ -35,11 +33,10 @@ What we will install:
 3) Click on OSX hosts
 4) Once downloaded, click on the application in the 
 downloads section of you browser
-6) Follow the directions on this video: 
-https://www.youtube.com/watch?v=lEvM-No4eQo
+6) Follow the directions on this [video:](https://www.youtube.com/watch?v=lEvM-No4eQo)
 
 #### On Linux:
-3) Click on Linux hosts click Ubuntu 19.04 
+3) Click on Linux distributions
 4) Once downloaded, click on the application in the downloads section of you browser
 6) Follow the directions on this [video](https://www.youtube.com/watch?v=_RlsxuayJnI)
 
@@ -149,8 +146,6 @@ You should see a **devops** in the folder list.
     4. Copy the output of that command into the input box
     5. Click continue as an admin
 
-
-
 ### Ansible
 
 - [What is Ansible](https://www.youtube.com/watch?v=p7-U1_E_j3wK)
@@ -173,3 +168,5 @@ We are going to use the free tier, but feel free to use paid resources, up to yo
     password we chose 
 
  - [AWS Tutorial](https://www.youtube.com/watch?v=XhW17g73fvY)
+
+ [<- Go Back](README.md)

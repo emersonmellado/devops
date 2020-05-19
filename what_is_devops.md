@@ -1,23 +1,27 @@
 # Introduction to DevOps
 
+![DevOps](/images/whatisdevops/devops-logo.png)
+
 * Why We need DevOps and What is DevOps
 * Setting up our Tool Set
+* Source Code Management (git & GitHub)
 * Python (and why we're learning it in a DevOps course)
-* Source Code Management (git)
 * Continuous Integration (jenkins)
 * Continuous Delivery (jenkins)
-* Virtualization
+* Virtualization (virtual box)
 * Configuration Management (ansible, puppet, chef, terraform)
-* Containerization (Docker)
+* Containerization (docker)
 * Cloud Computing (AWS, Azure, Google Cloud Platform)
 * Continuous Monitoring (Nagios, AWS Cloudwatch, Splunk)
 * Final Project
-* DevOps for 2020 (new tools / topics in the DevOps pipeline)
- 
+* DevOps for 2020 (new tools / topics in the DevOps pipeline) 
+
+## What do you think DevOps is?
+Lets take a few minutes to talk about it. We will use this time to know each other a bit before continuing.
 
 ## What is DevOps
 
-Development + Operations
+Development + Operations = DevOps ~~(simple right?)~~
 
 ### What **IS NOT** DevOps
 
@@ -30,6 +34,8 @@ Development + Operations
  
 
 ### Software Development in the 1990's
+
+![Software development in the 1990](/images/whatisdevops/software_delivery_1990.png)
 
 Programmers would write software (mainly in c and c++) and then manually share it with users on servers.
 Users would download that software and manually install it on their computers.
@@ -46,46 +52,52 @@ The introduction of the DevOps practice brought about a merging of the Developme
 
 Working together, these teams create a **synergy** that makes working in a software company a pleasure rather than a stressful ordeal.
 
-### New process 
-model:
+### New process model
+![New Process](/images/whatisdevops/new_process.png)
 
 
-Resources:
+**Resources:**
 
 [Intro to DevOps](https://www.youtube.com/watch?v=_Gpe1Zn-1fE)
 
 [What does a DevOps engineer do?](https://www.youtube.com/watch?v=o_sUNqZtfVQ)
 
 
+### Negative points from this process:
 
-Negative points from this process:
+- Manually creating software and manually installing software;
+- Lots of human errors in the process.
+- Separating the process of bringing software to market into two isolated teams tends to create animosity and "its your fault not mine" type of behaviour.
+- Software takes a long time to be delivered and another company that is faster and better will drive you out of the market.
 
-Manually creating software and manually installing software;
+### Different perspectives on Dev Ops
 
-Lots of human errors in the process.
+- from a **Developement** perspective
+    - is more focused on creating software, understands code, logical gates, scripting, databases, etc.
+    - multiple paradigms, one can be a backend, frontend, full stack
+- from an **Operations** *(sysadmin)* perspective
+    - is more focused on configuring, keeping up and maintaining servers and computer systems
+    - responsible for executing the infrastructure plan
+    - monitoring, scaling and sometimes deployment
 
-Separating the process of bringing software to market into two isolated teams tends to create animosity and "its your fault not mine" type of behaviour.
+### Our focus
+No assumptions, we will start from scratch. Meaning we will all learn how to to the first steps together. 
 
-Software takes a long time to be delivered and another company that is faster and better will drive you out of the market.
+> By the end of this course you should be able to create a full scalable infrastructure connected to a CI/CD pipeline.
 
+We wll also cover Algorithms, Logic and Python.
 
-What is DevOps
+*I think we are a bit biased from a dev perspective, probably because this is my main experience.*
 
+### Tools we will use in this course:
 
-The tools we will be using in this course:
-
-
-We will be installing:
 1) Virtual Box
 2) Ubuntu Linux
 3) Python
 4) Docker
-5) Jenkins 
+5) Jenkins
 6) Ansible
 
-See the desktop stack setup in the git repo for this course to find out how to do this: Desktop Setup and Extra Resources.pptx
- 
-https://github.com/emersonmellado/devops/setup.md
+Peek the desktop stack setup [here](setup.md). We will discuss the setup in more details later on.
 
-Installing our Stack
-
+[<- Go Back](README.md)
