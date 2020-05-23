@@ -92,7 +92,10 @@ ls -la
 ```
 
 * Create a new file and save it with the name **index.html**
-* Add the following content:
+* `touch index.html`
+* open it for edit (Use your favorite text editor, or just vim :) )
+* `vim index.html`
+* Copy the following content:
 
 ```html
 <!DOCTYPE html>
@@ -106,8 +109,11 @@ ls -la
   </body>
 </html>
 ```
-
-* Make sure to save the file again
+* If on vim (It will be just an empty black screen), right click and paste
+- More commands [here for vim](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
+* Make sure to save the file again 
+* to save the file on vim
+	- type `ESC`, then `:wq!` and hit enter
 * Go to the terminal and check Git status
 
 ```bash
