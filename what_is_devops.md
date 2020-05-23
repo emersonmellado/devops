@@ -40,7 +40,14 @@ Development + Operations = DevOps ~~(simple right?)~~
 Programmers would write software (mainly in c and c++) and then manually share it with users on servers.
 Users would download that software and manually install it on their computers.
 People that wrote the software were generally separated from the people that maintained the servers for running the software on.
-Bringing software to market was a long, arduous task filled with complicated and error prone steps, resulting in a long development life-cycle
+Bringing software to market was a long, arduous task filled with complicated and error prone steps, resulting in a long development life-cycle.
+
+### Negative points from this process:
+
+- Manually creating software and manually installing software;
+- Lots of human errors in the process.
+- Separating the process of bringing software to market into two isolated teams tends to create animosity and "its your fault not mine" type of behaviour.
+- Software takes a long time to be delivered and another company that is faster and better will drive you out of the market.
 
 From Wikipedia:
 
@@ -63,13 +70,6 @@ Working together, these teams create a **synergy** that makes working in a softw
 [What does a DevOps engineer do?](https://www.youtube.com/watch?v=o_sUNqZtfVQ)
 
 
-### Negative points from this process:
-
-- Manually creating software and manually installing software;
-- Lots of human errors in the process.
-- Separating the process of bringing software to market into two isolated teams tends to create animosity and "its your fault not mine" type of behaviour.
-- Software takes a long time to be delivered and another company that is faster and better will drive you out of the market.
-
 ### Different perspectives on Dev Ops
 
 - from a **Developement** perspective
@@ -85,11 +85,11 @@ No assumptions, we will start from scratch. Meaning we will all learn how to to 
 
 > By the end of this course you should be able to create a full scalable infrastructure connected to a CI/CD pipeline.
 
-We wll also cover Algorithms, Logic and Python.
+We will also cover Algorithms, Logic and Python.
 
 *I think we are a bit biased from a dev perspective, probably because this is my main experience.*
 
-You will have to lose the fear of the command line, it is not that scary :D
+You will have to lose the fear of the command line, it is not that scary. :D
 
 ### Tools we will use in this course:
 

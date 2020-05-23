@@ -2,7 +2,7 @@
 
 ### What is an OS?
 
-> An operating system is the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS,” interfaces with the computer’s hardware and provides services that applications can use.
+> An operating system is the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS”, interfaces with the computer’s hardware and provides services that applications can use.
 
 ### Common OS
 - Linux
@@ -24,22 +24,26 @@
 - [more about it here](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32)
 
 # Our focus
-We will focus on Linux in this course, mainly ubuntu because it is stable, open source, fairly small and fast.
+We will focus on Linux in this course, mainly Ubuntu because it is stable, open source, fairly small and fast.
 
-> If you are really confortable with Linux feel free to use centOS, fedora or any other distro you'd like just be careful with Arch.
+> If you are really confortable with Linux feel free to use centOS, Fedora or any other distro you'd like just be careful with Arch.
 
 ### Linux
 
 [What is linux](https://www.youtube.com/watch?v=zA3vmx0GaO8)
 
 - Linus Torvalds
-- kernel
+- Kernel
+
 ![Linux kernel](/images/os/linux-kernel.png)
-- permissions
+
+- Permissions
+
 ![Permissions](/images/os/Files-permissions-and-ownership-basics-in-Linux.png)
-- folder structure
+- Folder structure
     ![Directory Hierarchy](/images/os/directory-hierarchy.png)
-- commands
+
+- Commands
     - Print it an put on your mirror, or your desk this is your new guide! :)
     ![Commands cheat sheet](/images/os/linux-cheat-sheet.png)
 
@@ -63,9 +67,9 @@ We will focus on Linux in this course, mainly ubuntu because it is stable, open 
 
 #### Writting your first shell script
 
-1. go to your linux VM
-2. create a folder called practicing-scripts
-3. create a file called hello_world: `touch hello_world`
+1. Go to your linux VM
+2. Create a folder called practicing-scripts
+3. Create a file called hello_world: `touch hello_world`
 4. Put this content
 
 ```bash
@@ -74,7 +78,7 @@ We will focus on Linux in this course, mainly ubuntu because it is stable, open 
 
 echo "Hello World!"
 ```
-5. run the script: `./hello_world`
+5. Run the script: `./hello_world`
 
 You should receive an error:
 
@@ -85,7 +89,7 @@ You should receive an error:
 This means our script does not have execution permission (the x) part of the permissions. let's set it.
 
 6. Set permissions for the script: `chmod 755 hello_world`
-7. run the script again: `./hello_world`
+7. Run the script again: `./hello_world`
 ```bash
 Hello World!
 ```
