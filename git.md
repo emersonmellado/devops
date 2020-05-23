@@ -19,7 +19,7 @@ When developing a software application, SCM gives us the following essential fea
 
 > Git is a free and open source **distributed version control system** designed to handle everything from small to very large projects with speed and efficiency.
 
-* [Donwload and install Git](https://git-scm.com)
+* [Download and install Git](https://git-scm.com)
 * After install open a terminal:
     - Mac: CMD + Space and type terminal, hit enter
     - Windows: Hit the windows key and type 'git bash', hit enter
@@ -28,6 +28,13 @@ When developing a software application, SCM gives us the following essential fea
 
 ```bash
 git --version
+```
+
+## Set up Git
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
 ```
 
 ## Using Git
