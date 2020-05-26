@@ -397,7 +397,10 @@ Date:   Sun Jan 5 19:11:24 2020 -0800
 * Now we have an empty project again but with git history
 
 #### Create a local and remote repo
+* Navigate to your home folder `cd ~`
 * Create a new folder called **devopsbc**
+* Navigate into it `cd devopsbc`
+* Init the git repo `git init`
 * Create a **hello-world.py** file
 
 ```bash
