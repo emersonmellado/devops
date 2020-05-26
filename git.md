@@ -112,7 +112,7 @@ ls -la
 - More commands [here for vim](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
 * Make sure to save the file again 
 * to save the file on vim
-	- type `ESC`, then `:wq!` and hit enter
+	- git `ESC`, then type `:wq!` and hit enter
 * Go to the terminal and check Git status
 
 ```bash
