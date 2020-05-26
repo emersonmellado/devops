@@ -79,7 +79,6 @@ git status
 
 * After running **git init** we don't longer see an error
 * Now we find out that we'll be using **branches**, **commits** & **add**ing files
-* Open the folder `nodebc` using VSC (Visual Studio Code)
 * Git creates a hidden folder to keep track of our project
 * List your folder files to see the `.git` folder
 
