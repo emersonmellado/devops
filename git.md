@@ -79,7 +79,6 @@ git status
 
 * After running **git init** we don't longer see an error
 * Now we find out that we'll be using **branches**, **commits** & **add**ing files
-* Open the folder `nodebc` using VSC (Visual Studio Code)
 * Git creates a hidden folder to keep track of our project
 * List your folder files to see the `.git` folder
 
@@ -113,7 +112,7 @@ ls -la
 - More commands [here for vim](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
 * Make sure to save the file again 
 * to save the file on vim
-	- type `ESC`, then `:wq!` and hit enter
+	- git `ESC`, then type `:wq!` and hit enter
 * Go to the terminal and check Git status
 
 ```bash
@@ -398,7 +397,10 @@ Date:   Sun Jan 5 19:11:24 2020 -0800
 * Now we have an empty project again but with git history
 
 #### Create a local and remote repo
+* Navigate to your home folder `cd ~`
 * Create a new folder called **devopsbc**
+* Navigate into it `cd devopsbc`
+* Init the git repo `git init`
 * Create a **hello-world.py** file
 
 ```bash
@@ -452,7 +454,7 @@ git commit -m 'Added hello-world'
 ## GitHub
 * Go to [github.com](https://github.com)
 * Create a new GitHub account
-* Create a new repository with the name `devopsbc` clicking on the right top corner of the GitHub website
+* Create a `new repository` (click on the plus sign at the right top corner of the GitHub website) with the name `devopsbc`
 * Once you create a new repository GitHub will show you all the possible options that we have
 * As we already created a project we can run the following commands
 * Copy the URL generated with the **.git** in the end
