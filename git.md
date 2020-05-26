@@ -453,7 +453,7 @@ git commit -m 'Added hello-world'
 ## Github
 * Go to [github.com](https://github.com)
 * Create a new Github account
-* Create a new project with the name `devopsbc`
+* Create a `new Repository` (Click on the plus sign in the top right) with the name `devopsbc`
 * Once you create a new project Github will show you all the possible options that we have
 * As we already created a project we can run the following commands
 * Copy the URL generated with the **.git** in the end
