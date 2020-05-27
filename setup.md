@@ -71,7 +71,7 @@ There are sometimes issues getting VirtualBox working on a windows host. As a wo
 > **From this point forward you will be performing actions in your virtual machine.**
 Now that we all have a working copy of Ubuntu Linux 19.04 installed. We can begin building our **development server**. 
 
-Let's update the apt packages as this will be needed for all instalations:
+Let's update the apt packages as this will be needed for all installations:
 - run: `sudo apt-get update` or `sudo apt update`
 ---
 
