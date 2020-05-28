@@ -735,10 +735,10 @@ git log
 ```
 
 * Now our local folder is in sync with the server
-* Create a **python** folder at the root level
-* Add this folder to git
-* Commit your changes
-* Push your changes to the origin server
+* Create a **python** folder (`mkdir python`) at the root level
+* Add this folder to git: `git add .`
+* Commit your changes `git commit -m "Adding python folder"`
+* Push your changes to the origin server `git push origin master`
 * Now you'll be able to add your python exercises into this **python** folder and git will version them
 * Happy coding and I hope you like using Git and GitHub!
 * Checkout the great [Octocats](https://octodex.github.com)
@@ -750,6 +750,15 @@ git log
 * If we have a GitHub project and we want to share/update it we'll have to run `git push origin master`
 * If someone else updates our remote server we'll have to run `git fetch origin master` to get the latest changes
 * We'll do this workflow many times so get used to it and remember to check `git status` to know what's going on
+
+## Branches & PR & Fork
+
+### General git flow
+
+![General git flow](images/git/general-git-flow.png)
+
+### Pull vs Fetch
+![Pull vs Fetch](images/git/pullvsfetchandmerge.png)
 
 ## Git & GitHub Assets
 * [Git Reference](https://git-scm.com/docs)
