@@ -97,7 +97,7 @@ Let's update the apt packages as this will be needed for all installations:
 
 1. Install Docker:
     *TL;DR* 
-    - run `apt install curl`
+    - run `sudo apt install curl`
     - run: `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
     - run: `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
     - run: `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"`
