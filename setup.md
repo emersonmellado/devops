@@ -7,10 +7,10 @@ What we will install:
 2) [Ubuntu Linux](#installing-ubuntu-linux)
 3) [Python 3](#python)
 4) [Docker](#docker)
-5) Jenkins
-6) Ansible
+5) [Jenkins](#jenkins)
+6) [Ansible](#ansible)
 7) Git VCS
-8) Setup our cloud console on AWS.
+8) Setup our cloud console on [AWS](#aws-account).
 
 - **Resources**
 1. [What is a virtual machine (what is virtualization)](https://www.youtube.com/watch?v=yIVXjl4SwVo)
@@ -84,10 +84,10 @@ Let's update the apt packages as this will be needed for all installations:
 
 1. Install python3:
     *TL;DR*
-    - run: `sudo apt install python3`
-    - run: `sudo apt install python3-pip`
-    - run: `python3 --version` 
-    - run: `pip3 --version` 
+    - run `sudo apt install python3`
+    - run `sudo apt install python3-pip`
+    - run `python3 --version` 
+    - run `pip3 --version` 
     - If it shows the version you are good to go.
     - If you want more details: [Install Python 3 tutorial](https://tubemint.com/how-to-install-python-3-7-pip-3-ubuntu-19-04/) 
 
@@ -97,12 +97,12 @@ Let's update the apt packages as this will be needed for all installations:
 
 1. Install Docker:
     *TL;DR* 
-    - run: `apt install curl`
+    - run `apt install curl`
     - run: `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
     - run: `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
     - run: `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"`
     - run: `sudo apt install docker-ce`
-    - run: `docker --version` 
+    - run `docker --version` 
     - If it shows the version you are good to go.
     - If you want more details: [Installation video](https://www.youtube.com/watch?v=lw5eKxMe6dU)
 
@@ -117,9 +117,9 @@ Let's update the apt packages as this will be needed for all installations:
 
 > Cloning yout first git repo.
 
-1. run: `cd ~`
-2. run: `git clone https://github.com/emersonmellado/devops.git`
-3. run: `ls -l`
+1. run `cd ~`
+2. run `git clone https://github.com/emersonmellado/devops.git`
+3. run `ls -l`
 
 You should see a **devops** in the folder list.
 
