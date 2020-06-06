@@ -229,7 +229,7 @@ The same structure can have multiple interpretations, so to understand that some
 When interpreting an atomic propositions it can be True or False, and this is determined by contrasting the enunciated with the reality.
 
 - "It's morning."
-- "The windows is open."
+- "The window is open."
 
 The molecular propositions (the formula) can be **True** or **False** too, but are determined from the truth or falsity of their atomic propositions first, and then evaluating the connectives.
 
