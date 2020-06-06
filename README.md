@@ -16,8 +16,8 @@
 - [Setup](setup.md)
 
 ### Week 3
-- Logic
-- Python
+- [Logic](logic.md)
+- [Python](python.md)
 
 ### Week 4
 - Algorithms
