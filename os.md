@@ -4,10 +4,17 @@
 
 > An operating system is the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS”, interfaces with the computer’s hardware and provides services that applications can use.
 
+![System and Processes](/images/os/system_and_process.png)
+
 ### Common OS
 - Linux
 - Windows
-- macOS
+- macOS (Based on UNIX)
+
+### First release
+- 1971 - UNIX first release
+- 1981 - MS-DOS first release
+- 1994 - Linux first release
 
 ### Common Devices with OS
 - Laptops
@@ -32,8 +39,26 @@ We will focus on Linux in this course, mainly Ubuntu because it is stable, open 
 
 [What is linux](https://www.youtube.com/watch?v=zA3vmx0GaO8)
 
-- Linus Torvalds
-- Kernel
+#### Linus Torvalds
+
+In 1991, at the university of Helsinki, Finland,  a 23 year old computer science student purchased his personal computer. It came with an operating system called MS-DOS.
+
+But he wasn't satisfied with it. He preferred using UNIX - the operating system he used at his university. So he went to buy UNIX for his personal use. 
+The least expensive UNIX he could buy was $5000. (which is $9412 in today's rate!).
+That student was none other than Linus Torvalds.
+
+And that day he decided to create a brand new, from scratch, free UNIX-like operating system - LINUX. And along with help from 100 other developers released  its first version in 1994.
+
+Fast-forward to 2020, LINUX now powers
+
+- All of top 500 fastest super computers in the world
+- 96.3% of the top 1 million web servers.
+- And 86% of all smartphones in the world (probably includes yours Android, chromeOS...)
+- And also, Linux and DevOps tools have a close relationship.
+- Tools like Docker and Ansible were developed in Linux first. 
+
+
+#### Kernel
 
 ![Linux kernel](/images/os/linux-kernel.png)
 
