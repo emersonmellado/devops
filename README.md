@@ -17,7 +17,7 @@
 
 ### Week 3
 - [Logic](logic.md)
-- Python
+- [Python](python.md)
 
 ### Week 4
 - Algorithms
