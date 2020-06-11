@@ -7,10 +7,10 @@ What we will install:
 2) [Ubuntu Linux](#installing-ubuntu-linux)
 3) [Python 3](#python)
 4) [Docker](#docker)
-5) Jenkins
-6) Ansible
+5) [Jenkins](#jenkins)
+6) [Ansible](#ansible)
 7) Git VCS
-8) Setup our cloud console on AWS.
+8) Setup our cloud console on [AWS](#aws-account).
 
 - **Resources**
 1. [What is a virtual machine (what is virtualization)](https://www.youtube.com/watch?v=yIVXjl4SwVo)
