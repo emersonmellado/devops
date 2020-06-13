@@ -1,6 +1,7 @@
 # Resources
 
 [Introduction to Python](https://docs.python.org/3/reference/introduction.html)
+[Python TOC](https://docs.python.org/3/contents.html)
 
 # Python programming
 
@@ -409,18 +410,107 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Displaying text in the console is relatively simpler and Python already has methods for this. 
 > The fastest way is by doing this
-- print ("Text to show")
+- print("Text to show")
 
 
 ### Read and print
 For Python 3, let’s see an example of how to read:
-- n = input('Choose a number')
-- print ('Number %s \n' % (n))
+```python
+n = input('Choose a number')
+print ('Number %s \n' % (n))
+```
 
 Showing text in the console is very simple in Python, and to read from keyboard, is also pretty simple
 
 For Python 2, reading from keyboard changes a little bit:
-- raw_input('Choose a number')
+```python
+raw_input('Choose a number')
+```
 
 **Note:** remember that this can raise an Exception if the input is not a number. We’ll see how to handle exceptions later
 
+
+
+### Flow Controls
+
+
+
+### Conditions (If statements)
+
+As we studied in Conditional Logic, applications are written with conditions in mind, so let's see how that works.
+
+The structure of a condition is the following:
+
+```python
+if CONDITION:
+    # Condition is True
+else:
+    # Condition is False
+```
+
+Example:
+
+```python
+random_number = 101
+if ( random_number == 100 ): 
+    print("Value of the random number is equal to 100")
+else:
+    print("Value of the random number is NOT equal to 100")
+```
+
+We can start to mix and match things:
+
+```python
+random_number = input('Input a number: ')
+if ( random_number == 100 ): 
+    print("Value of the random number is equal to 100")
+else:
+    print("Value of the random number is NOT equal to 100")
+```
+
+We can also chain multiple conditions at once:
+
+```python
+random_number = int(input("Please enter an integer: "))
+if random_number < 0:
+    print('Negative')
+elif random_number == 0:
+    print('Zero')
+elif random_number == 1:
+    print('Single')
+else:
+     print('Higher value')
+
+print("The value of random_number is: ", random_number)
+```
+
+### for Statements
+
+```python
+countries = ["Canada", "US", "Australia", "Finland", "Nigeria"]
+for country in countries:
+    print(country, len(country))
+```
+
+We can also use range()
+
+```python
+for i in range(5):
+    print(i)
+```
+
+Mixing it all together:
+
+```python
+song = ['Mary', 'had', 'a', 'little', 'lamb']
+for word in range(len(song)):
+    print(word, song[word])
+```
+
+We can start to think about some more interesting things, what about a chaining sum?
+
+```python
+print(sum(range(4))) # 0 + 1 + 2 + 3
+```
+
+Let's check the python [oficial documentation](https://docs.python.org/3/tutorial/controlflow.html) for more details and you can keep going on your own :)
