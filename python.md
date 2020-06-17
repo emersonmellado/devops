@@ -3,7 +3,7 @@
 [Introduction to Python](https://docs.python.org/3/reference/introduction.html)
 [Python TOC](https://docs.python.org/3/contents.html)
 
-# Python programming
+# Python I
 
 - What is Python?
 - Python Applications
@@ -140,7 +140,7 @@ print ("Welcome to class!")
 print (8 * "\n")
 print ("Welcome to class!")
 ```
-
+# Python II
 ---
 
 # Python components
@@ -236,6 +236,7 @@ sentence = "This is a sentence."
 paragraph = """This is a paragraph. It is
 made up of multiple lines and sentences."""
 ```
+# Python III
 
 ## Variables and constants
 
@@ -352,7 +353,7 @@ Tuple literals   ::   (), (9,),(8,9,0)
 Dict literals   ::   {}, {'x':1}
 Set literals   ::   {8,9,10}
 ```
-**Examples:** *(Identify the types of each one?)*
+**Examples:** *(Can you identify the types of each one?)*
 
 ```python 
 result = True; 
@@ -394,6 +395,7 @@ In **bold** we highlight the expressions
 - res = **(3 * 5) + varA**
 - res = **5 + (6 * 5)  / 3 + (66 – 16) * 10**
 
+# Python IV
 
 ### Console or (REPL - Read–Eval–Print Loop)
 
@@ -429,11 +431,7 @@ raw_input('Choose a number')
 
 **Note:** remember that this can raise an Exception if the input is not a number. We’ll see how to handle exceptions later
 
-
-
 ### Flow Controls
-
-
 
 ### Conditions (If statements)
 
@@ -484,33 +482,334 @@ else:
 print("The value of random_number is: ", random_number)
 ```
 
-### for Statements
+## A bit more conceptual
 
-```python
-countries = ["Canada", "US", "Australia", "Finland", "Nigeria"]
-for country in countries:
-    print(country, len(country))
-```
+In this section we will start to think like a developer and get a grasp of the types of solutions we can mix and match to solve a problem.
 
-We can also use range()
+- Data Types
+- Sentences/Statements
+    - Declaration
+    - Sequence
+    - Decission-making (Selection)
+    - Looping (Iteration)
+- Block
 
-```python
-for i in range(5):
-    print(i)
-```
 
-Mixing it all together:
+### Never forget that 
+- Data is a value about something.
+- Variables are elements that store data.
+- Every data, according to its nature, belongs to a type.
+- A variable is always of some kind of type that determines the values it can assume.
 
-```python
-song = ['Mary', 'had', 'a', 'little', 'lamb']
-for word in range(len(song)):
-    print(word, song[word])
-```
 
-We can start to think about some more interesting things, what about a chaining sum?
+## Python data types
+> We have:
+- Primitive data types
+    - Indivisible Value element
+        - Numeric
+        - Logic
+        - Characters
+    - Classes
+        - Objects
+            - From the data perspective, an object is a composite data type.
 
-```python
-print(sum(range(4))) # 0 + 1 + 2 + 3
-```
+## Just to think
+> What do primitives data types and classes have in common?
 
-Let's check the python [oficial documentation](https://docs.python.org/3/tutorial/controlflow.html) for more details and you can keep going on your own :)
+From a general perspective they are sets of "things”
+- Primitive **Data Types**: Its “things” are simple indivisible values
+- **Classes**: Its “things” are objects
+
+## Data types
+A variable can be 
+- Primitive data type
+- Class data type
+
+These are **two** “big types”
+
+> But whait, why do we care about this?
+
+A Primitive data type variable
+- Stores values that represent data.
+- Value Variables. 
+
+A Class data type variable
+- Stores a value which is a reference to an object of the class.
+- Reference Variables. 
+
+### In summary
+- Primitive data type variables store values of that type.
+- Class type variables store references to objects of that class.
+
+# Python Statements
+Equals to natural language sentences
+- Only they are for the Python compiler/interpreter
+- Instead of ending with a dot, each sentence ends with the line
+
+Represent each of the steps of the program.
+- Each sentence is an executable code unit
+
+
+### There are 3 main statement categories: 
+- Expression or Sequence
+- Decission-making (selection)
+- Looping (Iteration)
+
+
+Expression, decission-making and looping statements go inside a method or block
+- Specifies the steps of algorithms.
+
+## Sequence or Expression statements
+
+They are a direct operation to be performed by Python
+- They are called expressions because they express things.
+- And also sequence because they are executed one after another in a sequential order.
+
+4 types:
+- Assignment 
+- Invoke métodos.
+- Object Creation
+- Null (empty line)
+
+Sequence: assignment (i)
+A. Assignment
+We talked about them without calling them by that name.
+Statements that use the assignment operator, linking to the left
+an identifier and to the right an expression.
+
+<IDENTIFIER VAR> = <EXPR> 
+
+
+# Slide: 15
+
+Sequence: assignment (ii)
+Examples:
+num = 5
+num = num * 6
+emp1 = Employee("Zara", 2000)
+
+Assignment statements are nor mathematical equalities.
+
+
+# Slide: 16
+
+Sequence: invoke
+C. Method invocation
+Used to invoke an object or class method.
+
+<IDENTIFIER VAR>.<IDENTIFIER METHOD>( <ARGUMENTS>);
+ 
+
+# Slide: 17
+
+Sequence: invoke
+Examples:
+print(”Hello World!!!") 
+emp1.displayEmployee()
+
+Arguments are not always used, it depends on the method
+ 
+
+# Slide: 18
+
+Sequence: construction
+Instructions that consist of constructing objects returning a reference. 
+
+<CLASS TYPE> (<ARGUMENTS>) 
+
+Examples:
+emp2 = Employee("Manni", 5000) 
+
+# Slide: 19
+
+Control Flow StatementsDecision-making 
+and Looping
+
+# Slide: 20
+
+Control Flow Statements
+Guide the execution flow 
+Control statements are the essence of any programming language, since they govern the flow of program execution.
+
+These are used exclusively within the methods.
+
+# Slide: 21
+
+conditional
+We used them when we have to make a decision to determine which sentences to execute
+Allowing us to branch to different places of the program according to what conditions are presented.
+
+# Slide: 22
+
+conditional
+
+# Slide: 23
+
+Simple selection
+Used to decide if a set of sentences is executed based on a condition. They respond to the idea of "If such thing then I do this" can additionally add a "but" to execute actions if the condition is not met.
+
+if <condition>:
+<Statements executed if condition is TRUE>
+else:
+<Statements executed if condition is FALSE>
+
+# Slide: 24
+
+Simple selection
+if <CONDITION1>: 
+<Statements executed if condition1 is TRUE> 
+	elif <CONDITION2>:
+		<Statements executed condition2 = TRUE>  
+	elif <expression3>: 
+	<Statements executed condition3 = TRUE>
+else:  
+	<Statements executed condition3 = FALSE>
+else 
+	<Statements executed if condition1 = FALSE>
+
+# Slide: 25
+
+iteration
+Used to repeat a sentence or group of sentences (block) 
+The set of statements that are within the Cycle or Loop iteration. 
+
+When we say “iterate through the cycles” we mean that we are executing the internal sentences.
+An iteration is equivalent to a cycle or loop execution.
+
+
+# Slide: 26
+
+iteration
+
+# Slide: 27
+
+For (i)
+The "For" sentence provides a compact way of traversing a set of values in a given order.
+
+It is used a lot to perform iterations of which we know in advance how many cycles we are going to perform.
+
+It is generally used to put all the code of a counter in a single instruction.
+
+# Slide: 28
+
+For (ii)
+For syntax:
+
+for iterating_var in sequence
+	<Statements> 
+
+# Slide: 29
+
+For (iii)
+for letter in ‘ComIT':     # First Example
+   print 'Current Letter :', letter
+
+fruits = ['banana', 'apple',  'mango']
+for fruit in fruits:        # Second Example
+   print 'Current fruit :', fruit
+
+for index in range(len(fruits)): # Third Example
+   print 'Current fruit :', fruits[index]
+
+# Slide: 30
+
+While (i)
+The while sentence is used to repeat a set of actions that must be performed while in such a condition.
+
+The idea is that whatever sentences are in the cycle, they tend to make FALSE the iteration condition since otherwise it would never come out of this cycle and run forever.
+
+# Slide: 31
+
+While (ii)
+While syntax:
+
+while <EXPRESSION>
+<Statements>
+
+# Slide: 32
+
+While (iii)count = 0
+while (count < 9):
+   print 'The count is:', count
+   count = count + 1
+
+count = 0
+while count < 5:
+   print count, " is  less than 5"
+   count = count + 1
+else:
+   print count, " is not less than 5"
+
+# Slide: 33
+
+LOOP controlBreak terminates the current loop and resumes execution at the next statement, just like the traditional break statement in C.
+
+var = 10
+while var > 0:              
+   print 'Current variable value :', var
+   var = var -1
+   if var == 5:
+      break
+
+# Slide: 34
+
+LOOP controlContinue returns the control to the beginning of the while loop.. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop
+
+for letter in ComIT':
+   if letter == ‘m':
+      continue
+   print 'Current Letter :', letter
+
+# Slide: 35
+
+LOOP controlThe pass statement is a null operation; nothing happens when it executes. The pass is also useful in places where your code will eventually go, but has not been written yet
+
+for letter in ComIT': 
+   if letter == ‘m':
+      pass
+      print 'This is pass block'
+   print 'Current Letter :', letter
+
+# Slide: 36
+
+For and While = friends
+The while cycle and the for cycle can be exchanged with ease, we can see it with the following example:i = 0
+while i < 10:
+	# actions
+	i=i+1for i in range(10):
+	# actions
+
+
+
+# Slide: 37
+
+Cycle comparison
+
+# Slide: 38
+
+block
+A compound sentence or block is a set of sentences indented to the right.
+
+Syntactically, a block is considered as a single sentence.
+An executable code unit
+
+From now on a sentence can be considered as both a block and a single sentence.
+
+# Slide: 39
+
+Block and scopes
+We tabulate to the right on each new block.
+Class definition
+Method definition
+Control flow structure
+if, else, while and for define a scope.
+
+Each block defines a scope
+
+# Slide: 40
+
+EXERCISINGEXERCISING
+
+# Slide: 41
+
+THE ENDQUESTIONS?
