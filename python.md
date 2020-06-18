@@ -378,7 +378,6 @@ Two categories:
 
 Operators combine operands of a certain type
 
-
 ### Simple Expressions
 In **bold** we highlight the expressions
 
@@ -505,13 +504,12 @@ In this section we will start to think like a developer and get a grasp of the t
 ## Python data types
 > We have:
 - Primitive data types
-    - Indivisible Value element
-        - Numeric
-        - Logic
-        - Characters
-    - Classes
-        - Objects
-            - From the data perspective, an object is a composite data type.
+    - Number
+    - Boolean or Logic
+    - Characters
+- Classes
+    - Objects
+        - From the data perspective, an object is a composite data type.
 
 ## Just to think
 > What do primitives data types and classes have in common?
@@ -561,255 +559,211 @@ Expression, decission-making and looping statements go inside a method or block
 
 ## Sequence or Expression statements
 
-They are a direct operation to be performed by Python
+They are a direct operation to be performed by your application
 - They are called expressions because they express things.
 - And also sequence because they are executed one after another in a sequential order.
 
 4 types:
 - Assignment 
-- Invoke métodos.
-- Object Creation
+- Invoke methods.
+- Object Creation (Construction)
 - Null (empty line)
 
-Sequence: assignment (i)
-A. Assignment
+### Assignment
+
 We talked about them without calling them by that name.
 Statements that use the assignment operator, linking to the left
 an identifier and to the right an expression.
 
-<IDENTIFIER VAR> = <EXPR> 
+`<IDENTIFIER VAR> = <EXPR>`
 
-
-# Slide: 15
-
-Sequence: assignment (ii)
 Examples:
-num = 5
-num = num * 6
-emp1 = Employee("Zara", 2000)
+- num = 5
+- num = num * 6
+- emp1 = Employee("Zara", 2000)
 
 Assignment statements are nor mathematical equalities.
 
-
-# Slide: 16
-
-Sequence: invoke
-C. Method invocation
+### Method invocation
 Used to invoke an object or class method.
 
-<IDENTIFIER VAR>.<IDENTIFIER METHOD>( <ARGUMENTS>);
+`<IDENTIFIER VAR>.<IDENTIFIER METHOD>(<ARGUMENTS>)`
  
-
-# Slide: 17
-
-Sequence: invoke
 Examples:
-print(”Hello World!!!") 
-emp1.displayEmployee()
+- print(”Hello World!!!") 
+- student.sayHi()
 
 Arguments are not always used, it depends on the method
- 
 
-# Slide: 18
+### Object Creation (Construction)
 
-Sequence: construction
 Instructions that consist of constructing objects returning a reference. 
 
-<CLASS TYPE> (<ARGUMENTS>) 
+`<CLASS TYPE> (<ARGUMENTS>)`
 
 Examples:
-emp2 = Employee("Manni", 5000) 
+- emp2 = Employee("Manni", 5000) 
 
-# Slide: 19
+## Decision-making and Looping or Control Flow Statements
 
-Control Flow StatementsDecision-making 
-and Looping
-
-# Slide: 20
-
-Control Flow Statements
 Guide the execution flow 
-Control statements are the essence of any programming language, since they govern the flow of program execution.
+- Control statements are the essence of any programming language, since they govern the flow of program execution.
 
 These are used exclusively within the methods.
 
-# Slide: 21
-
-conditional
 We used them when we have to make a decision to determine which sentences to execute
-Allowing us to branch to different places of the program according to what conditions are presented.
+- Allowing us to branch to different places of the program according to what conditions are presented.
 
-# Slide: 22
+![Conditional Flow](/images/python/conditional_flow.jpg)
 
-conditional
+### Simple selection
 
-# Slide: 23
-
-Simple selection
 Used to decide if a set of sentences is executed based on a condition. They respond to the idea of "If such thing then I do this" can additionally add a "but" to execute actions if the condition is not met.
 
+**Example 1:**
+```
 if <condition>:
-<Statements executed if condition is TRUE>
+    <Statements executed if condition is TRUE>
 else:
-<Statements executed if condition is FALSE>
+    <Statements executed if condition is FALSE>
+```
 
-# Slide: 24
-
-Simple selection
-if <CONDITION1>: 
-<Statements executed if condition1 is TRUE> 
-	elif <CONDITION2>:
-		<Statements executed condition2 = TRUE>  
-	elif <expression3>: 
-	<Statements executed condition3 = TRUE>
-else:  
-	<Statements executed condition3 = FALSE>
-else 
-	<Statements executed if condition1 = FALSE>
-
-# Slide: 25
-
-iteration
+### Iteration
 Used to repeat a sentence or group of sentences (block) 
-The set of statements that are within the Cycle or Loop iteration. 
+- The set of statements that are within the Cycle or Loop iteration. 
 
 When we say “iterate through the cycles” we mean that we are executing the internal sentences.
-An iteration is equivalent to a cycle or loop execution.
+- An iteration is equivalent to a cycle or loop execution.
 
+![Iteration flow](/images/python/iteration_flow.jpg)
 
-# Slide: 26
+#### For
 
-iteration
-
-# Slide: 27
-
-For (i)
 The "For" sentence provides a compact way of traversing a set of values in a given order.
 
 It is used a lot to perform iterations of which we know in advance how many cycles we are going to perform.
 
 It is generally used to put all the code of a counter in a single instruction.
 
-# Slide: 28
+**For syntax:**
 
-For (ii)
-For syntax:
-
+```python
 for iterating_var in sequence
 	<Statements> 
+```
 
-# Slide: 29
-
-For (iii)
-for letter in ‘ComIT':     # First Example
-   print 'Current Letter :', letter
+**Example:**
+```python
+for letter in 'ComIT':     # First Example
+   print('Current Letter :', letter)
 
 fruits = ['banana', 'apple',  'mango']
 for fruit in fruits:        # Second Example
-   print 'Current fruit :', fruit
+   print('Current fruit :', fruit)
 
 for index in range(len(fruits)): # Third Example
-   print 'Current fruit :', fruits[index]
+   print('Current fruit :', fruits[index])
+```
 
-# Slide: 30
-
-While (i)
+#### While
 The while sentence is used to repeat a set of actions that must be performed while in such a condition.
 
 The idea is that whatever sentences are in the cycle, they tend to make FALSE the iteration condition since otherwise it would never come out of this cycle and run forever.
 
-# Slide: 31
+**While syntax:**
 
-While (ii)
-While syntax:
-
+```python
 while <EXPRESSION>
 <Statements>
+```
 
-# Slide: 32
-
-While (iii)count = 0
+**Example:**
+```python
+count = 0
 while (count < 9):
-   print 'The count is:', count
+   print('The count is:', count)
    count = count + 1
 
 count = 0
 while count < 5:
-   print count, " is  less than 5"
+   print(count, " is  less than 5")
    count = count + 1
 else:
-   print count, " is not less than 5"
+   print(count, " is not less than 5")
+```
 
-# Slide: 33
+**LOOP control**
 
-LOOP controlBreak terminates the current loop and resumes execution at the next statement, just like the traditional break statement in C.
+the **break** statement terminates the current loop and resumes execution at the next statement.
 
+```python
 var = 10
 while var > 0:              
-   print 'Current variable value :', var
+   print('Current variable value :', var)
    var = var -1
    if var == 5:
       break
+```
 
-# Slide: 34
 
-LOOP controlContinue returns the control to the beginning of the while loop.. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop
+the **continue** statement returns the control to the beginning of the while or loop. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop
 
-for letter in ComIT':
-   if letter == ‘m':
+```python
+for letter in 'ComIT':
+   if letter == 'm':
       continue
-   print 'Current Letter :', letter
+   print('Current Letter :', letter)
+```
 
-# Slide: 35
+The **pass** statement is a null operation; nothing happens when it executes. The pass is also useful in places where your code will eventually go, but has not been written yet
 
-LOOP controlThe pass statement is a null operation; nothing happens when it executes. The pass is also useful in places where your code will eventually go, but has not been written yet
-
-for letter in ComIT': 
-   if letter == ‘m':
+```python
+for letter in 'ComIT': 
+   if letter == 'm':
       pass
-      print 'This is pass block'
-   print 'Current Letter :', letter
+      print('This is pass block')
+   print('Current Letter :', letter)
+```
 
-# Slide: 36
+**For and While are friends**
 
-For and While = friends
 The while cycle and the for cycle can be exchanged with ease, we can see it with the following example:i = 0
+
+```python
 while i < 10:
 	# actions
-	i=i+1for i in range(10):
+	i=i+1
+
+for i in range(10):
 	# actions
+```
+
+**Cycle comparison**
+|      | While | For |
+|----------------------|-------|------|
+| Use                  | When we do NOT know  the number of  iterations | When we do know  the number of  iterations
+| Number of executions | 0 or more| 0 or more
+| Used for             | When the termination condition is not numerical, for example: a boolean function, it is also useful for reading files | Count numbers, go through data structures
+| Frequency of usage   | Frequently | Very frequently
 
 
+**Block**
 
-# Slide: 37
-
-Cycle comparison
-
-# Slide: 38
-
-block
 A compound sentence or block is a set of sentences indented to the right.
 
 Syntactically, a block is considered as a single sentence.
-An executable code unit
+- An executable code unit
 
 From now on a sentence can be considered as both a block and a single sentence.
 
-# Slide: 39
-
-Block and scopes
 We tabulate to the right on each new block.
-Class definition
-Method definition
-Control flow structure
-if, else, while and for define a scope.
+- Class definition
+- Method definition
+- Control flow structure
+    - if, else, while and for define a scope.
 
-Each block defines a scope
+> Each block defines a scope
 
-# Slide: 40
+## Functions
 
-EXERCISINGEXERCISING
-
-# Slide: 41
-
-THE ENDQUESTIONS?
+## Classes
