@@ -15,15 +15,13 @@
 - [OS - Operating systems](os.md)
 - [Setup](setup.md)
 
-### Week 3
+### Week 3 & 4
 - [Logic](logic.md)
 - [Python](python.md)
 
-### Week 4
+### Week 5
 - Algorithms
 - OOP
-
-### Week 5
 - Networking
 
 ## Walk 
