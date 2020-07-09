@@ -73,8 +73,3 @@ class Person:
     age = 35
     program = "DevOps course"
     role = "Instructor"
-    
-    
-- [Recording on July-03](https://drive.google.com/file/d/1kNsbFh416DRajTAulTpBVQOwj1IyDWco/view) 
-- [Recording on July-08](https://drive.google.com/file/d/1vQkKV8B6Ajrn-8OMs6DJ_fzo4qwwbh-0/view)
-- [Exercise repository](https://github.com/emersonmellado/oop_introduction)
