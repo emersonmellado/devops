@@ -20,18 +20,23 @@
 - [Python](python.md)
 
 ### Week 5
-- Algorithms
-- OOP
-- Networking
+- Algorithms - put the pdf in here
+- [OOP](oop.md)
+- [June 29](https://play.codecast.io/nj1Opknw5GYv-python-first-flask-app)
+- [July-03](https://drive.google.com/file/d/1kNsbFh416DRajTAulTpBVQOwj1IyDWco/view) 
 
-## Walk 
+## Walk
 ### Week 6
+- Networking with python
+- [July-06](https://play.codecast.io/AXrJL8zXpYNP-python-oop)
+
+### Week 7
 - Virtualization
 - CI/CD
-### Week 7
+
+### Week 8
 - Jenkins
 - Ansible
-### Week 8
 - Docker
 
 ## Run
@@ -45,3 +50,4 @@
 ### Week 11
 - Security
 - Monitoring
+
