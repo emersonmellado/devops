@@ -18,6 +18,7 @@
 ### Week 3 & 4
 - [Logic](logic.md)
 - [Python](python.md)
+  - [Python in 4 hours - for beginners](https://www.youtube.com/watch?v=rfscVS0vtbw)
   - [Python OOP Tutorial 1: Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 ### Week 5
