@@ -76,3 +76,4 @@ class Person:
     
     
 - [Recording on July-03](https://drive.google.com/file/d/1kNsbFh416DRajTAulTpBVQOwj1IyDWco/view) 
+- [Exercise repository](https://github.com/emersonmellado/oop_introduction)
