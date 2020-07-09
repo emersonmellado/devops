@@ -18,17 +18,19 @@
 ### Week 3 & 4
 - [Logic](logic.md)
 - [Python](python.md)
+  - [Python OOP Tutorial 1: Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 ### Week 5
 - Algorithms - put the pdf in here
 - [OOP](oop.md)
-- [June 29](https://play.codecast.io/nj1Opknw5GYv-python-first-flask-app)
-- [July-03](https://drive.google.com/file/d/1kNsbFh416DRajTAulTpBVQOwj1IyDWco/view) 
+  - [OOP Examples](https://www.thegeekstuff.com/2019/03/python-oop-examples/)
+  - [June 29](https://play.codecast.io/nj1Opknw5GYv-python-first-flask-app)
+  - [July-03](https://drive.google.com/file/d/1kNsbFh416DRajTAulTpBVQOwj1IyDWco/view) 
 
 ## Walk
 ### Week 6
 - Networking with python
-- [July-06](https://play.codecast.io/AXrJL8zXpYNP-python-oop)
+  - [July-06](https://play.codecast.io/AXrJL8zXpYNP-python-oop)
 
 ### Week 7
 - Virtualization
