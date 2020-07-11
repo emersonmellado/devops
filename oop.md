@@ -1,5 +1,7 @@
 OOP - Object Oriented Programming (Paradigm)
 
+- [Full material in PDF](oop.pdf)
+
 Try to mimic the real world into Classes (Objects) by using abstraction. 
 The behaviour of a class is represented by attributes and actions are executed by methods.
 
