@@ -31,9 +31,9 @@
   
 ## Walk
 ### Week 6
-- [Networking](network.md) (with python example)
-  - [July 10](https://drive.google.com/file/d/1ZdpNlH8J_Fr1QuWwHmXy8tav5cFj5dXS/view)
-  - [July 13](https://drive.google.com/file/d/1bxGQsqlO9oZBRMoBphb5orAA7l7gYQwU/view)
+- [Networking](network.md)
+  - [July 10 - Intro + AWS Elastic Beanstalk fast run](https://drive.google.com/file/d/1ZdpNlH8J_Fr1QuWwHmXy8tav5cFj5dXS/view)
+  - [July 13 - Protocols](https://drive.google.com/file/d/1bxGQsqlO9oZBRMoBphb5orAA7l7gYQwU/view)
 
 ### Week 7
 - Virtualization
