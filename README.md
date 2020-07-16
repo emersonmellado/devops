@@ -32,9 +32,11 @@
 ## Walk
 ### Week 6
 - [Networking](network.md)
-  - [July 10 - Intro + AWS Elastic Beanstalk fast run](https://drive.google.com/file/d/1ZdpNlH8J_Fr1QuWwHmXy8tav5cFj5dXS/view)
+  - [July 10 - Intro + AWS Elastic Beanstalk (EB) fast run](https://drive.google.com/file/d/1ZdpNlH8J_Fr1QuWwHmXy8tav5cFj5dXS/view)
   - [July 13 - Protocols](https://drive.google.com/file/d/1bxGQsqlO9oZBRMoBphb5orAA7l7gYQwU/view)
-
+  - [July 15 - Full setup of a domain](https://drive.google.com/file/d/1PWgSwN4JstXLZ_KavwbTYH_s4T3RrBs8/view)
+    - You can navigate to the domain here: [mydevopsbc.com](http://mydevopsbc.com)
+    
 ### Week 7
 - Virtualization
 - CI/CD
