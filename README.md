@@ -41,7 +41,7 @@
 - CI/CD
   - [July 20 - CI/CD Overview](https://drive.google.com/file/d/1pxp_b1jKDQy3ssDvriOm9iqXv0NEb6Tw/view)
 - Virtualization
-  - [July 22 - Touching virtualization (short class)](https://drive.google.com/file/d/1JAbgMCeHz_Ke5Kl-KixE1v3YMsqHlSXf/view)
+  - [July 22 - Pipeline and virtualization (short class)](https://drive.google.com/file/d/1JAbgMCeHz_Ke5Kl-KixE1v3YMsqHlSXf/view)
 
 ### Week 8
 - Jenkins
