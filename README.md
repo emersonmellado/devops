@@ -50,10 +50,12 @@
 
 ### Week 9
 - Cloud computing
+
 ### Week 10
 - Load balancing
 - DNS
 - SSL Certificates
+
 ### Week 11
 - Security
 - Monitoring
