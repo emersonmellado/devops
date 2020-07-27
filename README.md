@@ -45,6 +45,7 @@
 
 ### Week 8
 - Jenkins
+  - [July 27 - Jenkins Intro](https://drive.google.com/file/d/1Epk9KjEQXDxhkpKQa1BbCJ7M1dwbNbdv/view)
 - Ansible
 - Docker
 
