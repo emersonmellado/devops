@@ -46,6 +46,7 @@
 ### Week 8
 - Jenkins
   - [July 27 - Jenkins Intro](https://drive.google.com/file/d/1Epk9KjEQXDxhkpKQa1BbCJ7M1dwbNbdv/view)
+  - [July 29 - Pipeline syntax](https://drive.google.com/file/d/1hIF6iLEhCkk_Drw7FGT1UwDXL_05Bw6L/view)
 - Ansible
 - Docker
 
