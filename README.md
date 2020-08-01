@@ -47,6 +47,17 @@
 - Jenkins
   - [July 27 - Jenkins Intro](https://drive.google.com/file/d/1Epk9KjEQXDxhkpKQa1BbCJ7M1dwbNbdv/view)
   - [July 29 - Pipeline syntax](https://drive.google.com/file/d/1hIF6iLEhCkk_Drw7FGT1UwDXL_05Bw6L/view)
+  - [July 31 - e2e CI/CD](https://drive.google.com/file/d/1Ti67WHn8ZHLnKrT3hEmejUke5eHwRFbl/view)
+    - Summary
+      1. Create a pipeline connected to AWS Elastic beanstalk (Deployment)
+      2. Install a plugin in Jenkins
+          - AWS Elastic Beanstalk Publisher
+      3. Create a multibranch pipeline connected to github (Poll) using webhooks as build triggers
+      4. Connect the two pipelines
+          - Poll pipeline will be the one that triggers the Deployment pipeline
+
+      Goal: Is to change mydevopsbc.com on github and after merging 
+      deploy it automatically
 - Ansible
 - Docker
 
