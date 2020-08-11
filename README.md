@@ -62,8 +62,9 @@
 ## Run
 
 ### Week 9
-- [August - 05 - CI/CD review](https://drive.google.com/file/d/1UtOPNNc6y3xmB3kJl33ur_zLwqW8lVRx/view)
-- [Aug 07 - Final Project ideas and overview](https://drive.google.com/file/d/1fomfX-pFpBXtVkYdCTyIqzfem_AjqXQB/view)
+- [August 05 - CI/CD review](https://drive.google.com/file/d/1UtOPNNc6y3xmB3kJl33ur_zLwqW8lVRx/view)
+- [August 07 - Final Project ideas and overview](https://drive.google.com/file/d/1fomfX-pFpBXtVkYdCTyIqzfem_AjqXQB/view)
+- [August 10 - SSH Overview](https://drive.google.com/file/d/1xHOaMwnF-qxuXivu91WytTuvxAPwbFn8/view)
 - Ansible
 - Docker
 
