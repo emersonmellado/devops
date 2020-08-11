@@ -58,16 +58,17 @@
 
       Goal: Is to change mydevopsbc.com on github and after merging 
       deploy it automatically
-   - [August - 05 - CI/CD review](https://drive.google.com/file/d/1UtOPNNc6y3xmB3kJl33ur_zLwqW8lVRx/view)
-- Ansible
-- Docker
 
 ## Run
 
 ### Week 9
-- Cloud computing
+- [August - 05 - CI/CD review](https://drive.google.com/file/d/1UtOPNNc6y3xmB3kJl33ur_zLwqW8lVRx/view)
+- [Aug 07 - Final Project ideas and overview](https://drive.google.com/file/d/1fomfX-pFpBXtVkYdCTyIqzfem_AjqXQB/view)
+- Ansible
+- Docker
 
 ### Week 10
+- Cloud computing
 - Load balancing
 - DNS
 - SSL Certificates
