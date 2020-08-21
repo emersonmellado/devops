@@ -64,17 +64,20 @@
 ### Week 9
 - [August 05 - CI/CD review](https://drive.google.com/file/d/1UtOPNNc6y3xmB3kJl33ur_zLwqW8lVRx/view)
 - [August 07 - Final Project ideas and overview](https://drive.google.com/file/d/1fomfX-pFpBXtVkYdCTyIqzfem_AjqXQB/view)
-- [August 10 - SSH Overview](https://drive.google.com/file/d/1xHOaMwnF-qxuXivu91WytTuvxAPwbFn8/view)
-- Ansible
-- Docker
 
 ### Week 10
+- Ansible
+  - [August 10 - SSH Overview](https://drive.google.com/file/d/1xHOaMwnF-qxuXivu91WytTuvxAPwbFn8/view)
+  - [August 12 - Linux administration with Ansible](https://drive.google.com/file/d/1sj4LoEqgMQFBwEXstQ7XS1Ymd0LjwFBu/view)
+
+
+Topics we did not covered but you can research as a follow-up:
+
 - Cloud computing
+  - AWS, Linode, 
 - Load balancing
 - DNS
 - SSL Certificates
-
-### Week 11
 - Security
 - Monitoring
 
